@@ -10,13 +10,14 @@
 		2243FBC22DD28913007CF039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243FBC12DD28913007CF039 /* AppDelegate.swift */; };
 		2243FBC42DD28913007CF039 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243FBC32DD28913007CF039 /* SceneDelegate.swift */; };
 		2243FBC62DD28913007CF039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243FBC52DD28913007CF039 /* ViewController.swift */; };
-		2243FBC92DD28913007CF039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2243FBC72DD28913007CF039 /* Main.storyboard */; };
 		2243FBCC2DD28913007CF039 /* TestRepo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2243FBCA2DD28913007CF039 /* TestRepo.xcdatamodeld */; };
 		2243FBCE2DD28915007CF039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2243FBCD2DD28915007CF039 /* Assets.xcassets */; };
 		2243FBD12DD28915007CF039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2243FBCF2DD28915007CF039 /* LaunchScreen.storyboard */; };
 		2243FBDC2DD28915007CF039 /* TestRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243FBDB2DD28915007CF039 /* TestRepoTests.swift */; };
 		2243FBE62DD28915007CF039 /* TestRepoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243FBE52DD28915007CF039 /* TestRepoUITests.swift */; };
 		2243FBE82DD28915007CF039 /* TestRepoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243FBE72DD28915007CF039 /* TestRepoUITestsLaunchTests.swift */; };
+		2243FBF92DD289A6007CF039 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243FBF72DD289A6007CF039 /* TestViewController.swift */; };
+		2243FBFA2DD289A6007CF039 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2243FBF82DD289A6007CF039 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 		2243FBC12DD28913007CF039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2243FBC32DD28913007CF039 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2243FBC52DD28913007CF039 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2243FBC82DD28913007CF039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2243FBCB2DD28913007CF039 /* TestRepo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestRepo.xcdatamodel; sourceTree = "<group>"; };
 		2243FBCD2DD28915007CF039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2243FBD02DD28915007CF039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		2243FBE12DD28915007CF039 /* TestRepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2243FBE52DD28915007CF039 /* TestRepoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRepoUITests.swift; sourceTree = "<group>"; };
 		2243FBE72DD28915007CF039 /* TestRepoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRepoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2243FBF72DD289A6007CF039 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		2243FBF82DD289A6007CF039 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +103,10 @@
 		2243FBC02DD28913007CF039 /* TestRepo */ = {
 			isa = PBXGroup;
 			children = (
+				2243FBF42DD28936007CF039 /* TestViewController */,
 				2243FBC12DD28913007CF039 /* AppDelegate.swift */,
 				2243FBC32DD28913007CF039 /* SceneDelegate.swift */,
 				2243FBC52DD28913007CF039 /* ViewController.swift */,
-				2243FBC72DD28913007CF039 /* Main.storyboard */,
 				2243FBCD2DD28915007CF039 /* Assets.xcassets */,
 				2243FBCF2DD28915007CF039 /* LaunchScreen.storyboard */,
 				2243FBD22DD28915007CF039 /* Info.plist */,
@@ -128,6 +130,15 @@
 				2243FBE72DD28915007CF039 /* TestRepoUITestsLaunchTests.swift */,
 			);
 			path = TestRepoUITests;
+			sourceTree = "<group>";
+		};
+		2243FBF42DD28936007CF039 /* TestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2243FBF72DD289A6007CF039 /* TestViewController.swift */,
+				2243FBF82DD289A6007CF039 /* TestViewController.xib */,
+			);
+			path = TestViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +247,7 @@
 			files = (
 				2243FBD12DD28915007CF039 /* LaunchScreen.storyboard in Resources */,
 				2243FBCE2DD28915007CF039 /* Assets.xcassets in Resources */,
-				2243FBC92DD28913007CF039 /* Main.storyboard in Resources */,
+				2243FBFA2DD289A6007CF039 /* TestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2243FBF92DD289A6007CF039 /* TestViewController.swift in Sources */,
 				2243FBC62DD28913007CF039 /* ViewController.swift in Sources */,
 				2243FBC22DD28913007CF039 /* AppDelegate.swift in Sources */,
 				2243FBC42DD28913007CF039 /* SceneDelegate.swift in Sources */,
@@ -301,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2243FBC72DD28913007CF039 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2243FBC82DD28913007CF039 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2243FBCF2DD28915007CF039 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -450,7 +454,6 @@
 				INFOPLIST_FILE = TestRepo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -477,7 +480,6 @@
 				INFOPLIST_FILE = TestRepo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
