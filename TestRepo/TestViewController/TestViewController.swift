@@ -15,4 +15,9 @@ class TestViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func navigate(_ sender: Any) {
+        let secondVC = Test2ViewController(nibName: "Test2ViewController", bundle: nil)
+        navigationController?.pushViewController(secondVC, animated: true)
+    }
+
 }

@@ -18,6 +18,8 @@
 		2243FBE82DD28915007CF039 /* TestRepoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243FBE72DD28915007CF039 /* TestRepoUITestsLaunchTests.swift */; };
 		2243FBF92DD289A6007CF039 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243FBF72DD289A6007CF039 /* TestViewController.swift */; };
 		2243FBFA2DD289A6007CF039 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2243FBF82DD289A6007CF039 /* TestViewController.xib */; };
+		22B61F0C2DD2C4EE00BE4303 /* Test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B61F0A2DD2C4EE00BE4303 /* Test2ViewController.swift */; };
+		22B61F0D2DD2C4EE00BE4303 /* Test2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B61F0B2DD2C4EE00BE4303 /* Test2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		2243FBE72DD28915007CF039 /* TestRepoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRepoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2243FBF72DD289A6007CF039 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		2243FBF82DD289A6007CF039 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		22B61F0A2DD2C4EE00BE4303 /* Test2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2ViewController.swift; sourceTree = "<group>"; };
+		22B61F0B2DD2C4EE00BE4303 /* Test2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 			children = (
 				2243FBF72DD289A6007CF039 /* TestViewController.swift */,
 				2243FBF82DD289A6007CF039 /* TestViewController.xib */,
+				22B61F0A2DD2C4EE00BE4303 /* Test2ViewController.swift */,
+				22B61F0B2DD2C4EE00BE4303 /* Test2ViewController.xib */,
 			);
 			path = TestViewController;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2243FBD12DD28915007CF039 /* LaunchScreen.storyboard in Resources */,
+				22B61F0D2DD2C4EE00BE4303 /* Test2ViewController.xib in Resources */,
 				2243FBCE2DD28915007CF039 /* Assets.xcassets in Resources */,
 				2243FBFA2DD289A6007CF039 /* TestViewController.xib in Resources */,
 			);
@@ -273,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2243FBF92DD289A6007CF039 /* TestViewController.swift in Sources */,
+				22B61F0C2DD2C4EE00BE4303 /* Test2ViewController.swift in Sources */,
 				2243FBC62DD28913007CF039 /* ViewController.swift in Sources */,
 				2243FBC22DD28913007CF039 /* AppDelegate.swift in Sources */,
 				2243FBC42DD28913007CF039 /* SceneDelegate.swift in Sources */,
